@@ -1,0 +1,30 @@
+{
+  "name": "aws-cloudwatch-monitor",
+  "version": "0.0.1",
+  "description": "Monitor cloudwatch metrics by calculating how long it will take them to reach a specified set of thresholds",
+  "main": "monitor.js",
+  "dependencies": {
+    "aws-sdk": "^2.7.27",
+    "highland": "^2.10.1",
+    "ramda": "^0.23.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node monitor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/adriaan-pelzer/aws-cloudwatch-monitor.git"
+  },
+  "keywords": [
+    "AWS",
+    "CloudWatch",
+    "monitor"
+  ],
+  "author": "Adriaan Pelzer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adriaan-pelzer/aws-cloudwatch-monitor/issues"
+  },
+  "homepage": "https://github.com/adriaan-pelzer/aws-cloudwatch-monitor#readme"
+}
